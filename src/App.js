@@ -50,7 +50,7 @@ function App() {
   });
   return (
     <div>
-      <h1>HacktoberFest {year}Countdown</h1>
+      <h1>HacktoberFest 12/01/{year}Countdown</h1>
       <h2>With React Hooks!</h2>
       {timerComponents.length ? timerComponents : <span>Time's up!</span>}
      
